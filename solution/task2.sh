@@ -1,4 +1,4 @@
-ls data
+ls 
 tar -xf ../data/archive-part1.tar
 unzip ../data/archive-part2.zip
 a=$(find . -name foo.txt)
