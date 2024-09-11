@@ -1,6 +1,6 @@
-a=$(find . -type F -name foo.txt)
+a=$(find . -type f -name foo.txt)
 cat $a
-a=$(find . -type F -name bar.txt)
+a=$(find . -type f -name bar.txt)
 cat $a
-a=$(find . -type F -name baz.txt)
+a=$(find . -type f -name baz.txt)
 cat $a
